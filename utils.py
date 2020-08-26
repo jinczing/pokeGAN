@@ -1,6 +1,9 @@
 import torch
 from torch import nn
 
+def debug(txt);
+    print()
+
 def sample_noise(batch_size, channels):
     return torch.randn((batch_size, channels, 1, 1))
 

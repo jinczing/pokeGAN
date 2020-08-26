@@ -7,7 +7,7 @@ from torch import autograd
 from torch.autograd import Variable
 from trainer_base import Trainer
 from utils import weights_init_truncated_normal, sample_noise
-from data.pokegan_dataloader import PokeGanDataset
+from data.pokegan_dataset import PokeGanDataset
 from models.wcdcgan_factory import WCDCGANFactory
 from bitarray import bitarray
 from bitarray.util import int2ba
